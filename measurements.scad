@@ -1,16 +1,10 @@
 tol = 0.02;
 
-vacuumID = 27.43;
-vacuumNarrowOD = 30.38;
-// vacuumNarrowOD = 10;
-vacuumWideOD = 31.88;
-vacuumLength = 54.73;
-
-routerID = 27.43;
-routerNarrowOD = 30.58;
-// routerNarrowOD = 10;
-routerWideOD = 32.08;
-routerLength = 54.73;
+couplerID = 27.43;
+couplerNarrowOD = 30.58;
+// couplerNarrowOD = 10;
+couplerWideOD = 32.08;
+couplerLength = 35.00;
 
 hoseOD = 33.96;
 hoseBarbOD = 35.18;

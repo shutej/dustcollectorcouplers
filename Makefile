@@ -1,11 +1,4 @@
-all: vacuum.stl router.stl
+all: coupler.stl
 
-vacuum.scad: measurements.scad relativity.scad
-
-router.scad: measurements.scad relativity.scad
-
-vacuum.stl: vacuum.scad
-	openscad -o $@ $<
-
-router.stl: router.scad
+coupler.stl: coupler.scad measurements.scad relativity.scad
 	openscad -o $@ $<
